@@ -1,9 +1,10 @@
 import './NavbarComponent.css';
 import NavbarLogo from '../assets/LogoNavbarComponent.jpg'
+import CompanyProfileFile from '../assets/CompanyProfileKapwika.pdf'
 
 const Navbar = () => {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+      <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-lg">
         <div className="container">
           <a className="navbar-brand" href="#">
             <img src={NavbarLogo} alt="Logo" className="logo" width="323" height="48"/>
@@ -25,7 +26,7 @@ const Navbar = () => {
                 <a className="nav-link" href="#home">Home</a>
               </li>
               <li className="nav-item mx-3">
-                <a className="nav-link" href="#company-profile">Company Profile</a>
+                <a className="nav-link" href={CompanyProfileFile}>Company Profile</a>
               </li>
               <li className="nav-item mx-3">
                 <a className="nav-link" href="#services">Services</a>
