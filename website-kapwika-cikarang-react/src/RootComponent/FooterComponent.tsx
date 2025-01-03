@@ -2,16 +2,16 @@ import './FooterComponent.css';
 
 const FooterComponent = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact">
       <div className="container">
         <div className="footer-content">
           <div className="footer-left">
-            <h1>Contact</h1>
+            <h1><hr className="h1-decoration"></hr>Contact</h1>
             
             <div className="footer-section">
               <h4><b>Office Cabang Cikarang</b></h4>
-              <p>Jl. Kancil VII No. 148 RT.005/007 Kel. Sertajaya,<br />
-              Kec. Cikarang Timur, Kab. Bekasi 17550</p>
+              <p>Jl. Kancil VII No. 148 RT.005/007 Kel. Sertajaya,</p>
+              <p>Kec. Cikarang Timur, Kab. Bekasi 17550</p>
               <p>Telp: 021-89096738</p>
               <p>HP: 0812-907-2425</p>
               <p>Email: kapwikacabangkikarang@gmail.com</p>
@@ -19,8 +19,8 @@ const FooterComponent = () => {
             
             <div className="footer-section">
               <h4><b>Workshop</b></h4>
-              <p>Rukan Grand Galaxy City Blok RRG 2 No. 31 Jakarta,<br />
-              Bekasi Selatan, Kota Bekasi 17147</p>
+              <p>Rukan Grand Galaxy City Blok RRG 2 No. 31 Jakarta,</p>
+              <p>Bekasi Selatan, Kota Bekasi 17147</p>
               <p>Telp: 021-82783828</p>
               <p>HP: 0878-8660-3004</p>
             </div>
@@ -48,7 +48,7 @@ const FooterComponent = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>Copyright &copy; 2025 KAPWIKA Bekasi. All rights reserved.</p>
+          <p id='footer-bottom-p'>Copyright &copy; 2025 KAPWIKA Bekasi. All rights reserved.</p>
         </div>
       </div>
     </footer>

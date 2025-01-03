@@ -1,3 +1,9 @@
-.navbar {
+.navbar a{
     font-family: 'Garamond', serif;
+    color: #512b16;
+  }
+
+.navbar a:hover{
+    font-family: 'Garamond', serif;
+    color: #feb246;
   }
