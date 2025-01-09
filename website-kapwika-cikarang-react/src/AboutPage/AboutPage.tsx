@@ -33,7 +33,7 @@ const AboutPage = () => {
     </p>
 
     <p>
-    Pada tahun 2022, partner bertambah yang berdomisili di Jababeka Cikarang atas nama Alister Aritonang, SE., MM., Ak., CPA., CTA., CSRS., CSP., CSRA., CACP., ASEAN CPA. Partner inilah yang menjadi representasi KAP WIKA Cabang Bekasi (Cikarang).
+    Pada tahun 2022, partner bertambah yang berdomisili di Jababeka Cikarang atas nama Alister Aritonang, SE., MM., Ak., CPA., CTA., CSRS., CSP., CSRA., CACP., ASEAN CPA. Saat ini, beliau menjadi representasi KAP WIKA Cabang Bekasi (Cikarang).
     </p>
 
     <p>

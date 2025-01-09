@@ -1,5 +1,17 @@
 import './FooterComponent.css';
 
+/*
+              <div className="google-map-code">
+                <iframe
+                    src="https://maps.google.com/maps?width=500&amp;height=200&amp;hl=en&amp;q=Jl. Kancil VII No. 148 RT.005/007 Kel. Sertajaya,  Kec. Cikarang Timur, Kab. Bekasi 17550&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                    width="500"
+                    height="200"
+                    style={{ border: 0 }}
+                    aria-hidden="false"
+                />
+                  </div>
+*/
+
 const FooterComponent = () => {
   return (
     <footer className="footer" id="contact">
@@ -14,7 +26,7 @@ const FooterComponent = () => {
               <p>Kec. Cikarang Timur, Kab. Bekasi 17550</p>
               <p>Telp: 021-89096738</p>
               <p>HP: 0812-907-2425</p>
-              <p>Email: kapwikacabangkikarang@gmail.com</p>
+              <p>Email: kapwikacabangcikarang@gmail.com</p>
             </div>
             
             <div className="footer-section">

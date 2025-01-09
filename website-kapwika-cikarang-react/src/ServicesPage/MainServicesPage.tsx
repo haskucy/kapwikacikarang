@@ -1,9 +1,12 @@
 import "../Pages.css"
+import CardComponent from "../RootComponent/CardComponent";
 
 const MainServicesPage = () => {
     return (
           <section className="page-container">
         <h1 className="page-title">Our Services</h1>
+        <CardComponent/>
+        <br></br>
         <p>
           Dalam rangka berpartisipasi aktif dalam dunia usaha, kami Kantor Akuntan Publik (KAP) WISNU dan KATILI merupakan konsultan yang bertanggung jawab secara professional. Tenaga ahli kami yang profesional serta dinamis dan berpengalaman akan mendukung pelayanan yang kami berikan, sehingga menambah keyakinan kami untuk dapat membantu menyelesaikan permasalahan yang ada di perusahaan Bapak/Ibu
         </p>
