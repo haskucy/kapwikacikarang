@@ -59,7 +59,7 @@ const MainPage = () => {
     <section className="section-part" id="services-short">
         <div className="h1-title">
         <hr className="h1-decorations-1"></hr>
-        <h1>Services</h1>
+        <h1>Our Services</h1>
         </div>
 
         <br></br>
@@ -69,7 +69,7 @@ const MainPage = () => {
 
         <div className="mb-8 mb-lg-0" id='services-more'>
                 <a href="/services" className="center btn btn-primary me-3 mb-2 mb-lg-0" id='simple-button'>
-                Learn more about our services
+                Pelajari lebih lanjut tentang jasa kami
                 </a>
             </div>
     </section>

@@ -8,14 +8,19 @@
   }
   
   .service-card {
-    background-color: #d8d8d8;
+    background: rgba(0, 0, 0, .65) url("../assets/HeroImage.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    max-width: 300px;
+    max-width: 500px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     font-family: garamond serif;
+    width: 500px;
+    height: 200px;
 
   }
   
@@ -26,18 +31,18 @@
   
   .card-image {
     width: 100%;
-    height: 180px;
+    height: 200px;
     object-fit: cover;
   }
   
   .card-content {
-    padding: 20px;
+    padding-top: 90px;
   }
   
   .card-title {
     font-size: 1.5em;
     margin-bottom: 10px;
-  }
+    }
   
   .card-button {
     display: inline-block;
@@ -55,4 +60,11 @@
   .card-button:hover {
     background-color: #ff8c00;
   }
+
+  h3.card-title {
+    color: #fff;
+    }
   
+.card-link{
+  text-decoration: none;
+}
