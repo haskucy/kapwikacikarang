@@ -5,32 +5,17 @@ const JasaAdministrasiPage = () => {
         <section className="page-container">
         <h1 className="page-title">Jasa Administrasi</h1>
         <p>
-          Dalam rangka berpartisipasi aktif dalam dunia usaha, kami Kantor Akuntan Publik (KAP) WISNU dan KATILI merupakan konsultan yang bertanggung jawab secara professional. Tenaga ahli kami yang profesional serta dinamis dan berpengalaman akan mendukung pelayanan yang kami berikan, sehingga menambah keyakinan kami untuk dapat membantu menyelesaikan permasalahan yang ada di perusahaan Bapak/Ibu
+        Bantuan jasa administrasi (accounting service) mencakup pembuatan buku-buku atau catatan-catatan yang perlu dimiliki perusahaan serta membimbing staf perusahaan dalam melakukan pembukuan, sehingga dapat menyusun Laporan Keuangan.
         </p>
+       
         <p>
-        Kami dapat memberikan berbagai pelayanan jasa yang meliputi Audit Laporan Keuangan (General Audit), Audit Khusus, Audit Perbankan, Penyusunan Sistem Akuntansi, Penyusunan Laporan Keuangan, Studi Kelayakan, Konsultasi Manajemen, Advis Urusan Pajak Perusahaan dan lainnya.
-        </p>
-
-        <p>
-        Profesional, terpercaya dan dapat diandalkan adalah motto kami dalam memberikan pelayanan kepada klien-klien kami. Merupakan penghargaan yang besar apabila kebutuhan pelayanan tersebut dipercayakan kepada kami.
-        </p>
-
-        <h3 id="jenis">
-        <b>JENIS - JENIS PELAYANAN PROFESI AKUNTAN PUBLIK</b>
-        </h3>
-
-        <p>
-        Sebagai Akuntan Publik, KAP WISNU dan KATILI menyediakan beberapa jenis pelayananyang diberikan secara profesional, antara lain :
+        Pelayanan jasa meliputi:
         </p>
 
         <p>
         <ol>
-          <li>Pelaksanaan General and Special Audit</li>
-          <li>Pelaksanaan Investigation (Special and Forensic Audit)</li>
-          <li>Penyusunan Accounting's System & Procedure</li>
-          <li>Penyusunan Studi Kelayakan (Feasibility Study)</li>
-          <li>Penyelenggaraan Management Services</li>
-          <li>Konsultasi Bidang Perpajakan</li>
+          <li>Mengatur dokumen dan bukti-bukti transaksi untuk diarsipkan dengan baik, serta mempersiapkan buku-buku yang diperlukan untuk mencatat transaksi-transaksi perusahaan.</li>
+          <li>Membantu melakukan pembukuan sampai dengan penyusunan Laporan keuangan perusahaan secara manual ataupun dengan komputer.</li>
         </ol>
         </p>
 

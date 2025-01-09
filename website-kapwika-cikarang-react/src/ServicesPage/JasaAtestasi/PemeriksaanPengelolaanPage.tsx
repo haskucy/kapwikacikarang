@@ -5,32 +5,20 @@ const PemeriksaanPengelolaanPage = () => {
         <section className="page-container">
         <h1 className="page-title">Pemeriksaan Pengelolaan (<i>Management Audit</i>)</h1>
         <p>
-          Dalam rangka berpartisipasi aktif dalam dunia usaha, kami Kantor Akuntan Publik (KAP) WISNU dan KATILI merupakan konsultan yang bertanggung jawab secara professional. Tenaga ahli kami yang profesional serta dinamis dan berpengalaman akan mendukung pelayanan yang kami berikan, sehingga menambah keyakinan kami untuk dapat membantu menyelesaikan permasalahan yang ada di perusahaan Bapak/Ibu
-        </p>
-        <p>
-        Kami dapat memberikan berbagai pelayanan jasa yang meliputi Audit Laporan Keuangan (General Audit), Audit Khusus, Audit Perbankan, Penyusunan Sistem Akuntansi, Penyusunan Laporan Keuangan, Studi Kelayakan, Konsultasi Manajemen, Advis Urusan Pajak Perusahaan dan lainnya.
+        Pemeriksaan pengelolaan atau disebut juga pemeriksaan operasional merupakan evaluasi secara bebas, selektif dan analisis terhadap suatu program, kegiatan atau fungsi dalam manajemen untuk memberikan saran atau informasi penting demi terselenggaranya pelaksanaan manajemen yang sehat, efektif dan efisien.
         </p>
 
         <p>
-        Profesional, terpercaya dan dapat diandalkan adalah motto kami dalam memberikan pelayanan kepada klien-klien kami. Merupakan penghargaan yang besar apabila kebutuhan pelayanan tersebut dipercayakan kepada kami.
-        </p>
-
-        <h3 id="jenis">
-        <b>JENIS - JENIS PELAYANAN PROFESI AKUNTAN PUBLIK</b>
-        </h3>
-
-        <p>
-        Sebagai Akuntan Publik, KAP WISNU dan KATILI menyediakan beberapa jenis pelayananyang diberikan secara profesional, antara lain :
+        Pemeriksaan manajemen meliputi:
         </p>
 
         <p>
         <ol>
-          <li>Pelaksanaan General and Special Audit</li>
-          <li>Pelaksanaan Investigation (Special and Forensic Audit)</li>
-          <li>Penyusunan Accounting's System & Procedure</li>
-          <li>Penyusunan Studi Kelayakan (Feasibility Study)</li>
-          <li>Penyelenggaraan Management Services</li>
-          <li>Konsultasi Bidang Perpajakan</li>
+          <li>Menilai apakah sistem akuntansi dan pelaporan sudah cukup memadai.</li>
+          <li>Menilai apakah kegiatan operasi perusahaan sudah berjalan secara efektif dan efisien.</li>
+          <li>Menilai apakah cara-cara yang ditempuh untuk mencapai tujuan tertentu telah dilaksanakan dengan biaya yang efisien.</li>
+          <li>Menilai efektivitas kerja, saluran distribusi, serta efektivitas pemasaran.</li>
+          <li>Menilai efisiensi perusahaan, baik intern maupun dalam perbandingannya dengan perusahaan pesaing atau dengan rata-rata perusahaan sejenis.</li>
         </ol>
         </p>
 

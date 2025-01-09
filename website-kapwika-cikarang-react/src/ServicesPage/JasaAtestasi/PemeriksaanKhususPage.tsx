@@ -5,39 +5,23 @@ const PemeriksaanKhususPage = () => {
         <section className="page-container">
         <h1 className="page-title">Pemeriksaan Khusus (<i>Special Investigation</i>)</h1>
         <p>
-          Dalam rangka berpartisipasi aktif dalam dunia usaha, kami Kantor Akuntan Publik (KAP) WISNU dan KATILI merupakan konsultan yang bertanggung jawab secara professional. Tenaga ahli kami yang profesional serta dinamis dan berpengalaman akan mendukung pelayanan yang kami berikan, sehingga menambah keyakinan kami untuk dapat membantu menyelesaikan permasalahan yang ada di perusahaan Bapak/Ibu
-        </p>
-        <p>
-        Kami dapat memberikan berbagai pelayanan jasa yang meliputi Audit Laporan Keuangan (General Audit), Audit Khusus, Audit Perbankan, Penyusunan Sistem Akuntansi, Penyusunan Laporan Keuangan, Studi Kelayakan, Konsultasi Manajemen, Advis Urusan Pajak Perusahaan dan lainnya.
+        Istilah pemeriksaan digunakan untuk jasa lain yang dihasilkan oleh akuntan publik yang berupa pernyataan pendapat tentang kesesuaian asersi yang dibuat oleh pihak lain dengan kriteria yang telah ditetapkan. Pemeriksaan terhadap informasi keuangan prospektif dan pemeriksaan untuk menentukan kesesuaian pengendalian intern suatu entitas dengan kriteria yang ditetapkan oleh instansi pemerintah atau badan pengatur.
         </p>
 
         <p>
-        Profesional, terpercaya dan dapat diandalkan adalah motto kami dalam memberikan pelayanan kepada klien-klien kami. Merupakan penghargaan yang besar apabila kebutuhan pelayanan tersebut dipercayakan kepada kami.
+        Pemeriksaan khusus dilakukan atas permintaan perusahaan untuk memeriksa kejadian-kejadian khusus yang meliputi :
         </p>
-
-        <h3 id="jenis">
-        <b>JENIS - JENIS PELAYANAN PROFESI AKUNTAN PUBLIK</b>
-        </h3>
-
-        <p>
-        Sebagai Akuntan Publik, KAP WISNU dan KATILI menyediakan beberapa jenis pelayananyang diberikan secara profesional, antara lain :
-        </p>
-
+        
         <p>
         <ol>
-          <li>Pelaksanaan General and Special Audit</li>
-          <li>Pelaksanaan Investigation (Special and Forensic Audit)</li>
-          <li>Penyusunan Accounting's System & Procedure</li>
-          <li>Penyusunan Studi Kelayakan (Feasibility Study)</li>
-          <li>Penyelenggaraan Management Services</li>
-          <li>Konsultasi Bidang Perpajakan</li>
+          <li>Masalah pembelian</li>
+          <li>Masalah kecurangan atau penggelapan</li>
+          <li>Masalah perluasan usaha</li>
+          <li>Masalah struktural permodalan perusahaan</li>
+          <li>Masalah kalkulasi harga pokok</li>
+          <li>Dan lain-lain.</li>
         </ol>
         </p>
-
-        <p>
-        Kami juga memiliki ijin sebagai Likuidator Perseroan sesuai UU 40 tahun 2007 tentang Perseroan Terbatas. KAP WISNU dan KATILI terdaftar di Otoritas Jasa Keuangan (OJK),  Bank Indonesia serta rekanan BPK RI.
-        </p>
-
         </section>            
         );
   };
