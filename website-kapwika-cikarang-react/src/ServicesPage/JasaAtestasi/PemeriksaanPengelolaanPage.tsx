@@ -3,6 +3,14 @@ import "../../Pages.css"
 const PemeriksaanPengelolaanPage = () => {
     return (
         <section className="page-container">
+        <nav aria-label="breadcrumb">
+          <ol className="breadcrumb">
+            <li className="breadcrumb-item"><a href="/services/">Our Services</a></li>
+            <li className="breadcrumb-item"><a href="/services/jasa-atestasi/">Jasa Atestasi</a></li>
+            <li className="breadcrumb-item active" aria-current="page">Pemeriksaan Pengelolaan</li>
+          </ol>
+        </nav>
+        <br></br>        
         <h1 className="page-title">Pemeriksaan Pengelolaan (<i>Management Audit</i>)</h1>
         <p>
         Pemeriksaan pengelolaan atau disebut juga pemeriksaan operasional merupakan evaluasi secara bebas, selektif dan analisis terhadap suatu program, kegiatan atau fungsi dalam manajemen untuk memberikan saran atau informasi penting demi terselenggaranya pelaksanaan manajemen yang sehat, efektif dan efisien.

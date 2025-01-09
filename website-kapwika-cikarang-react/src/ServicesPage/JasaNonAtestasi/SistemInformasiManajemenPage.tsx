@@ -3,6 +3,14 @@ import "../../Pages.css"
 const SistemInformasiManajemenPage = () => {
     return (
         <section className="page-container">
+        <nav aria-label="breadcrumb">
+          <ol className="breadcrumb">
+            <li className="breadcrumb-item"><a href="/services/">Our Services</a></li>
+            <li className="breadcrumb-item"><a href="/services/jasa-non-atestasi/">Jasa Non Atestasi</a></li>
+            <li className="breadcrumb-item active" aria-current="page">Sistem Informasi Manajemen</li>
+          </ol>
+        </nav>
+        <br></br>        
         <h1 className="page-title">Sistem Informasi Manajemen</h1>
         <p>
         Jasa yang diberikan kepada perusahaan-perusahaan skala menengah dan kecil dalam menyelenggarakan pencatatan keuangan serta administrasi lainnya dengan menggunakan perangkat lunak (<i>software</i>). Solusi dari divisi IT hadir dengan mengembangkan dan memberikan biaya yang efektif, solusi teknologi sesuai permintaan untuk perusahaan atau organisasi baik yang kecil dan besar.

@@ -3,6 +3,14 @@ import "../../Pages.css"
 const KonsultasiManajemenDanPerpajakanPage = () => {
     return (
         <section className="page-container">
+        <nav aria-label="breadcrumb">
+          <ol className="breadcrumb">
+            <li className="breadcrumb-item"><a href="/services/">Our Services</a></li>
+            <li className="breadcrumb-item"><a href="/services/jasa-non-atestasi/">Jasa Non Atestasi</a></li>
+            <li className="breadcrumb-item active" aria-current="page">Konsultasi Manajemen dan Perpajakan</li>
+          </ol>
+        </nav>
+        <br></br>        
         <h1 className="page-title">Konsultasi Manajemen dan Perpajakan</h1>
         <p>
         Jasa perpajakan meliputi bantuan yang diberikan oleh akuntan publik kepada kliennya dalam pengisian Surat Pemberitahuan Pajak Tahunan (SPT) pajak penghasilan, perencanaan pajak, dan bertindak mewakili kliennya dalam menghadapi masalah perpajakan. Kegiatan bidang ini meliputi pelayanan berupa pemberian saran atau nasehat di bidang manajemen dan perpajakan yang mencakup masalah akuntansi dan keuangan, produksi, pemasaran, pengelolaan persediaan serta saran dan nasehat yang menyangkut perpajakan, antara lain:

@@ -3,6 +3,14 @@ import "../../Pages.css"
 const PenyusunanAnggaranDanPenyusunanSistemAnggaranPage = () => {
     return (
         <section className="page-container">
+        <nav aria-label="breadcrumb">
+          <ol className="breadcrumb">
+            <li className="breadcrumb-item"><a href="/services/">Our Services</a></li>
+            <li className="breadcrumb-item"><a href="/services/jasa-non-atestasi/">Jasa Non Atestasi</a></li>
+            <li className="breadcrumb-item active" aria-current="page">Penyusunan Anggaran dan Penyusunan Sistem Anggaran</li>
+          </ol>
+        </nav>
+        <br></br>        
         <h1 className="page-title">Penyusunan Anggaran dan Penyusunan Sistem Anggaran</h1>
         <p>
         Yang dimaksud dengan Sistem Akuntansi adalah semua alat bantu manajemen yang dapat dipergunakan untuk mengidentifikasi, mengumpulkan, mengklasifikasi, melaporkan dan menafsir informasi mengenai transaksi perusahaan secara efektif dan efisien, agar dapat menjamin keamanan harta milik perusahaan serta dapat dilaksanakannya kebijakan - kebijakan yang telah ditetapkan.
