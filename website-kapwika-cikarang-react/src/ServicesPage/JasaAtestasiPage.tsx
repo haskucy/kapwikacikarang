@@ -1,4 +1,6 @@
 import "../Pages.css"
+import JasaAtestasiCard from "../RootComponent/JasaAtestasiCard";
+import NeedMoreInfoComponent from "../RootComponent/NeedMoreInfoComponent";
 
 const JasaAtestasiPage = () => {
     let title = "Jasa Atestasi"
@@ -14,9 +16,17 @@ const JasaAtestasiPage = () => {
         <h1 className="page-title">{title}</h1>
         <p>
         Atestasi (<i>Attestation</i>) adalah suatu pernyataan pendapat atau pertimbangan orang yang independen dan kompeten apakah asersi suatu entitas sesuai, dalam semua hal yang signifikan, dengan kinerja yang telah ditetapkan. Asersi adalah pernyataan yang dibuat oleh satu pihak yang secara implisit dimaksudkan untuk digunakan oleh pihak lain (pihak ketiga).
+        Berikut adalah jasa atestasi yang kami tawarkan:
         </p>
-        
+        <br></br>
 
+        <JasaAtestasiCard/>
+        
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <NeedMoreInfoComponent/>
         </section>            
         );
   };

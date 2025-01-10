@@ -15,7 +15,7 @@ const CardComponent = () => {
             </div>
             </a>
         </div>
-        <div className="service-card">
+        <div className="service-card-2">
             <a className= "card-link" href="/services/jasa-non-atestasi">
             <div className="card-content">
             <h3 className="card-title"><b>JASA NON ATESTASI</b></h3>

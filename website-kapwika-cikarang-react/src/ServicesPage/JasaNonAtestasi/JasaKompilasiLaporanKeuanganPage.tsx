@@ -1,4 +1,5 @@
 import "../../Pages.css"
+import NeedMoreInfoComponent from "../../RootComponent/NeedMoreInfoComponent";
 
 const JasaKompilasiLaporanKeuanganPage = () => {
     return (
@@ -21,6 +22,12 @@ const JasaKompilasiLaporanKeuanganPage = () => {
         <p>
         Jasa akuntansi (<i>Accounting Service</i>) : Penyusunan Laporan Keuangan perusahaan yang meliputi: Neraca, Laporan laba rugi, Buku Besar (<i>General Ledger</i>)
         </p>
+
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <NeedMoreInfoComponent/>
 
         </section>            
         );

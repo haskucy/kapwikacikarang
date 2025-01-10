@@ -1,11 +1,11 @@
-import HeroImage from '../assets/HeroImage.jpg'
+import AboutUsImage from '../assets/about-us.jpg'
 
 const AboutPage = () => {
     return (
       <section className="page-container">
     <h1 className="page-title">Tentang Kami</h1>
     
-    <img src={HeroImage} alt="" className="img-fluid rounded center" width="60%"/>
+    <img src={AboutUsImage} alt="" className="img-fluid rounded center" width="60%"/>
       <br></br>
       <br></br>
 

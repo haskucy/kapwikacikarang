@@ -64,8 +64,8 @@ p{
 }
   
 #Hero{
-    background-color: #e3e2e2;
-    padding-bottom: 75px;
+    background-color: #ffffff;
+    padding-bottom: 10px;
     padding-top: 75px;
 }
 
@@ -73,4 +73,49 @@ p{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.affiliation-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.logo-row {
+    display: flex;
+    gap: 3rem; /* Space between logos */
+    flex-wrap: wrap; /* Makes it responsive */
+    justify-content: center;
+}
+
+.logo {
+    max-height: 130px; /* Adjust the size of the logos */
+    transition: transform 0.3s ease; /* Add hover effect */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .logo {
+        max-height: 680px; /* Smaller logos on smaller screens */
+    }
+}
+
+.text-center{
+    text-align: center;
+}
+
+.interested-text{
+    font-family: 'garamond', 'serif';
+    font-weight: 500;
+
 }

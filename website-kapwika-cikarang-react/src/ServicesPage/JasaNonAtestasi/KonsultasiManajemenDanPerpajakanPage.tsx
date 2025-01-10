@@ -1,4 +1,5 @@
 import "../../Pages.css"
+import NeedMoreInfoComponent from "../../RootComponent/NeedMoreInfoComponent";
 
 const KonsultasiManajemenDanPerpajakanPage = () => {
     return (
@@ -52,6 +53,12 @@ const KonsultasiManajemenDanPerpajakanPage = () => {
           Kantor Pelayanan Pajak, penurunan tarif untuk <i>Tax Treaty</i> dan sebagainya.</li>
         </ol>
         </p>
+
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <NeedMoreInfoComponent/>
 
         </section>            
         );

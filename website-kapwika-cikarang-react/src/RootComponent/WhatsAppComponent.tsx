@@ -5,7 +5,7 @@ const WhatsAppButton = () => {
     return (
         <div className="whatsapp-container">
         <div className="whatsapp-popup">Chat with us</div>
-        <a href="https://wa.me/628129072425" target="_blank" className="whatsapp-button">
+        <a href="https://wa.me/622124719496" target="_blank" className="whatsapp-button">
           <img src={WhatsappLogo} alt="WhatsApp Icon" className="whatsapp-icon"></img>
         </a>
         </div>

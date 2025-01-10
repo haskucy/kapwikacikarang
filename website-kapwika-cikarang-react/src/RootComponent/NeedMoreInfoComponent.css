@@ -1,0 +1,14 @@
+.interested-text{
+    font-family: 'garamond', 'serif';
+    font-weight: 500;
+
+}
+
+#simple-button{
+    font-family: 'Garamond', serif;
+    font-weight: 600;
+    font-size: 14pt;
+    background-color: #feb246;
+    color: #1b1b1b;
+    border-color: #feb246;
+}

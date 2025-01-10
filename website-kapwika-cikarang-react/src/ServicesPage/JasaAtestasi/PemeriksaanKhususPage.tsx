@@ -1,4 +1,5 @@
 import "../../Pages.css"
+import NeedMoreInfoComponent from "../../RootComponent/NeedMoreInfoComponent";
 
 const PemeriksaanKhususPage = () => {
     return (
@@ -30,6 +31,12 @@ const PemeriksaanKhususPage = () => {
           <li>Dan lain-lain.</li>
         </ol>
         </p>
+
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <NeedMoreInfoComponent/>
         </section>            
         );
   };

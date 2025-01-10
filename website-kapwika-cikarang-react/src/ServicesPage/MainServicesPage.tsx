@@ -1,5 +1,6 @@
 import "../Pages.css"
 import CardComponent from "../RootComponent/CardComponent";
+import NeedMoreInfoComponent from "../RootComponent/NeedMoreInfoComponent";
 
 const MainServicesPage = () => {
     return (
@@ -41,7 +42,13 @@ const MainServicesPage = () => {
         Kami juga memiliki ijin sebagai Likuidator Perseroan sesuai UU 40 tahun 2007 tentang Perseroan Terbatas. KAP WISNU dan KATILI terdaftar di Otoritas Jasa Keuangan (OJK),  Bank Indonesia serta rekanan BPK RI.
         </p>
 
-        </section>            
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <NeedMoreInfoComponent/>
+        </section> 
+                   
         );
   };
   

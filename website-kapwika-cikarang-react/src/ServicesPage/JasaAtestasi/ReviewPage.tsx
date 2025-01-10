@@ -1,5 +1,6 @@
 import "../../Pages.css"
 import 'bootstrap/dist/css/bootstrap.css'
+import NeedMoreInfoComponent from "../../RootComponent/NeedMoreInfoComponent";
 
 const ReviewPage = () => {
     return (
@@ -16,6 +17,12 @@ const ReviewPage = () => {
         <p>
         Jasa review terutama berupa permintaan keterangan dan prosedur analitis terhadap informasi keuangan suatu entitas dengan tujuan untuk memberikan keyakinan negatif atas asersi yang terkandung dalam informasi keuangan tersebut
         </p>
+
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <NeedMoreInfoComponent/>
 
         </section>   
         );

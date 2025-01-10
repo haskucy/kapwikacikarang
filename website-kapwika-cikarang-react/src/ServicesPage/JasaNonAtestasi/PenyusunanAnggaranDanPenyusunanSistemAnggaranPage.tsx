@@ -1,4 +1,5 @@
 import "../../Pages.css"
+import NeedMoreInfoComponent from "../../RootComponent/NeedMoreInfoComponent";
 
 const PenyusunanAnggaranDanPenyusunanSistemAnggaranPage = () => {
     return (
@@ -31,6 +32,12 @@ const PenyusunanAnggaranDanPenyusunanSistemAnggaranPage = () => {
           <li>Merancang bentuk dan isi formulir: buku besar, buku pembantu, serta bentuk dan isi Laporan Keuangan, Laporan Produksi, dan Laporan lainnya.</li>
         </ol>
         </p>
+
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <NeedMoreInfoComponent/>
 
         </section>            
         );

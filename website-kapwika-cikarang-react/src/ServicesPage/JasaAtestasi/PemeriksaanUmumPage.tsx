@@ -1,4 +1,5 @@
 import "../../Pages.css"
+import NeedMoreInfoComponent from "../../RootComponent/NeedMoreInfoComponent";
 
 const PemeriksaanUmumPage = () => {
     return (
@@ -16,8 +17,14 @@ const PemeriksaanUmumPage = () => {
         Yang dimaksud dengan Pemeriksan Umum adalah pemeriksaan yang dilakukan oleh Kantor Akuntan terhadap Laporan Keuangan yang meliputi Neraca, Laporan Laba-Rugi, serta Laporan Arus Kas dengan tujuan untuk memberikan Pernyataan Pendapat mengenai Laporan Keuangan secara keseluruhan.
         </p>
         <p>
-        Jasa auditing mencakup perolehan dan penilaian bukti yang mendasari laporan keuangan historis suatu entitas yang berisi asersi yang dibuat oleh manajemen entitas tersebut. Dalam menghasilkan jasa auditing ini Auditor memberikan keyakinan positif (positive assurance) atas asersi yang dibuat oleh manajemen dalam laporan keuangan historis. Dalam menghasilkan jasa auditing dan pemeriksaan, akuntan publik melaksanakan berbagai prosedur berikut ini : inspeksi, observasi, konfirmasi, permintaan keterangan, pengusutan (tracing), pemeriksaan bukti pendukung (vouching), pelaksanaan ulang (reperforming) dan analisis.
+        Jasa auditing mencakup perolehan dan penilaian bukti yang mendasari laporan keuangan historis suatu entitas yang berisi asersi yang dibuat oleh manajemen entitas tersebut. Dalam menghasilkan jasa auditing ini Auditor memberikan keyakinan positif (<i>positive assurance</i>) atas asersi yang dibuat oleh manajemen dalam laporan keuangan historis. Dalam menghasilkan jasa auditing dan pemeriksaan, akuntan publik melaksanakan berbagai prosedur berikut ini : inspeksi, observasi, konfirmasi, permintaan keterangan, pengusutan (<i>tracing</i>), pemeriksaan bukti pendukung (<i>vouching</i>), pelaksanaan ulang (<i>reperforming</i>) dan analisis.
         </p>
+
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <NeedMoreInfoComponent/>
 
         </section>            
         );

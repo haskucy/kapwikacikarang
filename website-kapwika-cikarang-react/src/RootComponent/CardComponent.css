@@ -23,8 +23,30 @@
     height: 200px;
 
   }
+
+  .service-card-2 {
+    background: rgba(0, 0, 0, .65) url("../assets/stock-accounting-1.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 500px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: garamond serif;
+    width: 500px;
+    height: 200px;
+
+  }
   
   .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .service-card-2:hover {
     transform: translateY(-10px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   }

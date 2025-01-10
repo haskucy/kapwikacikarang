@@ -1,6 +1,8 @@
 import './NavbarComponent.css';
 import NavbarLogo from '../assets/LogoNavbarComponent.jpg'
 import CompanyProfileFile from '../assets/CompanyProfileKapwika.pdf'
+import 'bootstrap/dist/css/bootstrap.css'
+
 
 const Navbar = () => {
     return (
