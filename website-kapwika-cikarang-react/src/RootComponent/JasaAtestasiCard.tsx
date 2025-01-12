@@ -4,7 +4,7 @@ import './JasaAtestasiCard.css';
 const JasaAtestasiCard = () => {
     return (
     <div className="cards-container">
-        <div className="service-card">
+        <div className="service-card-1">
             <a className= "card-link" href="/services/jasa-atestasi/pemeriksaan-umum">
             <div className="card-content">
             <h3 className="card-title"><b>Pemeriksaan Umum (<i>General Audit</i>)</b></h3>
