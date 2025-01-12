@@ -61,9 +61,9 @@ const FooterComponent = () => {
             <input type="hidden" name="access_key" value="9315887a-b513-4ab9-bf87-cd29bdf4e5be"/>
               <br></br>
               <label>Name</label>
-              <input type="text" name="Name" placeholder="Name" required/>
-              <label>Email*</label>
-              <input type="email" name="email" placeholder="Email" required/>
+              <input type="text" name="Name" placeholder="Name" required autoComplete='on'/>
+              <label>Email</label>
+              <input type="email" name="email" placeholder="Email" required autoComplete='on'/>
               <label>Subject</label>
               <input type="text" name="subject" placeholder="Subject" required/>
               <label>Message</label>

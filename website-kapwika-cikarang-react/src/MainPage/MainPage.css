@@ -1,3 +1,8 @@
+#Hero{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 #hero-button{
     font-family: 'Garamond', serif;
     font-weight: 600;
@@ -108,7 +113,19 @@ p{
     .logo {
         max-height: 680px; /* Smaller logos on smaller screens */
     }
+
 }
+
+@media (max-width: 992px) {
+    #title-hero{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+
 
 .text-center{
     text-align: center;

@@ -1,10 +1,9 @@
 import './CardComponent.css';
-//<img src={HeroImage} alt="Jasa Atestasi" className="card-image"></img>
 
 const CardComponent = () => {
     return (
     <div className="cards-container">
-        <div className="service-card">
+        <div className="service-card-s1">
             <a className= "card-link" href="/services/jasa-atestasi">
             <div className="card-content">
             <h3 className="card-title"><b>JASA ATESTASI</b></h3>
@@ -15,7 +14,7 @@ const CardComponent = () => {
             </div>
             </a>
         </div>
-        <div className="service-card-2">
+        <div className="service-card-s2">
             <a className= "card-link" href="/services/jasa-non-atestasi">
             <div className="card-content">
             <h3 className="card-title"><b>JASA NON ATESTASI</b></h3>

@@ -7,8 +7,8 @@
     flex-wrap: wrap;
   }
   
-  .service-card {
-    background: rgba(0, 0, 0, .65) url("../assets/HeroImage.jpg");
+  .service-card-1 {
+    background: rgba(0, 0, 0, .65) url("../assets/stock-accounting-1.jpg");
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: 500px 400px;

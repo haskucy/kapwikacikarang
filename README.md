@@ -7,6 +7,6 @@ Website React untuk KAPWIKA CIKARANG
 ## TODO Next:
 - Fix Google Map Responsiveness ✅
 - Remove Lazy loading at carousel ✅
-- Decrease The size of Images
+- Decrease The size of Images ✅
 - Email SES and SNS
 

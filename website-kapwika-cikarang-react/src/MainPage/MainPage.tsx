@@ -32,7 +32,7 @@ const MainPage = () => {
         <div className="container">
         <div className="row align-items-center mb-5">
 
-            <div className="col-12 col-lg-6 order-md-1 pt-5">
+            <div className="col-12 col-lg-6 order-md-1 pt-5" id='title-hero'>
             <h1 className="display-2 mb-5 fw-bold fs-1">
                 Kantor Akuntan Publik <br/>Wisnu & Katili <br/>Cabang Bekasi (Cikarang)
             </h1>
@@ -90,8 +90,8 @@ const MainPage = () => {
         <br></br>
         <br></br>
 
-        <div className="mb-8 mb-lg-0" id='services-more'>
-                <a href="/services" className="center btn btn-primary me-3 mb-2 mb-lg-0" id='simple-button'>
+        <div className="mb-0 mb-lg-0 center" id='services-more'>
+                <a href="/services" className="center btn btn-primary mb-2 mb-lg-0" id='simple-button'>
                 Learn more about our services
                 </a>
             </div>
