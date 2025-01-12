@@ -25,9 +25,9 @@ const FooterComponent = () => {
             <div className="footer-section">
             <div className="google-map-code">
                 <iframe
-                    src="https://maps.google.com/maps?width=500&amp;height=200&amp;hl=en&amp;q=Jl. Kancil VII No. 148 RT.005/007 Kel. Sertajaya,  Kec. Cikarang Timur, Kab. Bekasi 17550&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                    width="500"
-                    height="200"
+                    src="https://maps.google.com/maps?hl=en&amp;q=Jl. Kancil VII No. 148 RT.005/007 Kel. Sertajaya,  Kec. Cikarang Timur, Kab. Bekasi 17550&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                    width="95%"
+                    height="100%"
                     style={{ border: 0 }}
                     aria-hidden="false"
                 />

@@ -117,56 +117,56 @@ const MainPage = () => {
     </div>
     <div className="carousel-inner">
         <div className="carousel-item active">
-            <img src={KegiatanImage} className="d-block w-100 rounded" alt="First Slide" loading='lazy'/>
+            <img src={KegiatanImage} className="d-block w-100 rounded" alt="First Slide"/>
             <div className="carousel-caption d-none d-md-block">
                 <h5>Client Consultation</h5>
                 <p className='text-center'>Engaging in strategic discussions to understand client needs and goals.</p>
             </div>
         </div>
         <div className="carousel-item">
-            <img src={KegiatanImage2} className="d-block w-100 rounded" alt="Second Slide" loading='lazy'/>
+            <img src={KegiatanImage2} className="d-block w-100 rounded" alt="Second Slide"/>
             <div className="carousel-caption d-none d-md-block">
                 <h5>Team Collaboration with Clients</h5>
                 <p className='text-center'>Building strong partnerships through teamwork and trust.</p>
             </div>
         </div>
         <div className="carousel-item">
-            <img src={KegiatanImage3} className="d-block w-100 rounded" alt="Third Slide" loading='lazy'/>
+            <img src={KegiatanImage3} className="d-block w-100 rounded" alt="Third Slide"/>
             <div className="carousel-caption d-none d-md-block">
                 <h5>Client Engagement Session</h5>
                 <p className='text-center'>Discussing tailored solutions to meet client expectations.</p>
             </div>
         </div>
         <div className="carousel-item">
-            <img src={KegiatanImage4} className="d-block w-100 rounded" alt="Fourth Slide" loading='lazy'/>
+            <img src={KegiatanImage4} className="d-block w-100 rounded" alt="Fourth Slide"/>
             <div className="carousel-caption d-none d-md-block">
                 <h5>Professional Collaboration</h5>
                 <p className='text-center'>Strengthening client relationships through effective communication.</p>
             </div>
         </div>
         <div className="carousel-item">
-            <img src={KegiatanImage5} className="d-block w-100 rounded" alt="Fifth Slide" loading='lazy'/>
+            <img src={KegiatanImage5} className="d-block w-100 rounded" alt="Fifth Slide"/>
             <div className="carousel-caption d-none d-md-block">
                 <h5>Inventory Assessment with Client</h5>
                 <p className='text-center'>Conducting thorough stock evaluations to ensure accuracy.</p>
             </div>
         </div>
         <div className="carousel-item">
-            <img src={KegiatanImage6} className="d-block w-100 rounded" alt="Sixth Slide" loading='lazy'/>
+            <img src={KegiatanImage6} className="d-block w-100 rounded" alt="Sixth Slide"/>
             <div className="carousel-caption d-none d-md-block">
                 <h5>Stock Verification Process</h5>
                 <p className='text-center'>Ensuring precise inventory management with client collaboration.</p>
             </div>
         </div>
         <div className="carousel-item">
-            <img src={KegiatanImage7} className="d-block w-100 rounded" alt="Seventh Slide" loading='lazy'/>
+            <img src={KegiatanImage7} className="d-block w-100 rounded" alt="Seventh Slide"/>
             <div className="carousel-caption d-none d-md-block">
                 <h5>Inventory Audit Session</h5>
                 <p className='text-center'>Partnering with clients to maintain financial transparency.</p>
             </div>
         </div>
         <div className="carousel-item">
-            <img src={KegiatanImage8} className="d-block w-100 rounded" alt="Eight Slide" loading='lazy'/>
+            <img src={KegiatanImage8} className="d-block w-100 rounded" alt="Eight Slide"/>
             <div className="carousel-caption d-none d-md-block">
                 <h5>Pilkada Audit for 2024 Regional Elections</h5>
                 <p className='text-center'>Ensuring compliance and accountability in electoral financial management.</p>
