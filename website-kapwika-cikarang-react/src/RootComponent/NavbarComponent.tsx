@@ -9,7 +9,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
         <div className="container">
           <a className="navbar-brand" href="/">
-            <img src={NavbarLogo} alt="Logo" className="logo" width="323" height="48"/>
+            <img src={NavbarLogo} alt="Logo KAP WIKA" className="logo" width="323" height="48"/>
           </a>
           <button
             className="navbar-toggler"

@@ -1,8 +1,15 @@
+import { Helmet } from "react-helmet-async";
 import "../Pages.css"
 import NeedMoreInfoComponent from "../RootComponent/NeedMoreInfoComponent";
 
 const JasaNonAtestasiPage = () => {
     return (
+            <>
+                        <Helmet>
+                            <title> Jasa Non Atestasi | Kantor Akuntan Publik Wisnu & Katili Cabang Bekasi (Cikarang)</title>
+                            <meta name="description" content="KAP WIKA Cikarang: Jasa non atestasi, kompilasi laporan keuangan, sistem akuntansi, studi kelayakan, dan konsultasi pajak." />
+                            <link rel="canonical" href="/services/jasa-non-atestasi" />
+                        </Helmet>
         <section className="page-container">
         <nav aria-label="breadcrumb">
           <ol className="breadcrumb">
@@ -34,7 +41,8 @@ const JasaNonAtestasiPage = () => {
         <br></br>
 
         <NeedMoreInfoComponent/>
-        </section>            
+        </section>
+        </>            
         );
   };
   

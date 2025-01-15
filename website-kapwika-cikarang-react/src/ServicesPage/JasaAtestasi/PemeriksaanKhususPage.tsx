@@ -1,8 +1,15 @@
+import { Helmet } from "react-helmet-async";
 import "../../Pages.css"
 import NeedMoreInfoComponent from "../../RootComponent/NeedMoreInfoComponent";
 
 const PemeriksaanKhususPage = () => {
     return (
+                  <>
+                              <Helmet>
+                                  <title>Pemeriksaan Khusus (Special Investigation) | Kantor Akuntan Publik Wisnu & Katili Cabang Bekasi (Cikarang)</title>
+                                  <meta name="description" content="KAP WIKA Cikarang: Pemeriksaan kesesuaian asersi khusus (Special Investigation) untuk masalah pembelian, kecurangan atau penggelapan, kalkulasi harga pokok, dan lainnya." />
+                                  <link rel="canonical" href="/services/jasa-atestasi/pemeriksaan-khusus" />
+                              </Helmet>
         <section className="page-container">
         <nav aria-label="breadcrumb">
           <ol className="breadcrumb">
@@ -37,7 +44,8 @@ const PemeriksaanKhususPage = () => {
         <br></br>
 
         <NeedMoreInfoComponent/>
-        </section>            
+        </section>      
+        </>      
         );
   };
   

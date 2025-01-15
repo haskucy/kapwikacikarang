@@ -1,10 +1,16 @@
+import { Helmet } from "react-helmet-async";
 import "../Pages.css"
 import CardComponent from "../RootComponent/CardComponent";
 import NeedMoreInfoComponent from "../RootComponent/NeedMoreInfoComponent";
 
 const MainServicesPage = () => {
-    return (
-          <section className="page-container">
+    return (<>
+            <Helmet>
+                <title> Our Services | Kantor Akuntan Publik Wisnu & Katili Cabang Bekasi (Cikarang)</title>
+                <meta name="description" content="KAP Wisnu & Katili Cikarang: Melayani jasa atestasi dan non atestasi seperti audit, pajak, manajemen, dan akuntansi secara profesional. Hubungi kami!" />
+                <link rel="canonical" href="/services" />
+            </Helmet>
+        <section className="page-container">
         <h1 className="page-title">Our Services</h1>
         <CardComponent/>
         <br></br>
@@ -48,7 +54,7 @@ const MainServicesPage = () => {
 
         <NeedMoreInfoComponent/>
         </section> 
-                   
+        </>
         );
   };
   

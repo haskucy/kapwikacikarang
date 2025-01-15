@@ -1,9 +1,16 @@
+import { Helmet } from 'react-helmet-async'
 import AboutUsImage from '../assets/about-us.jpg'
 
 const AboutPage = () => {
-    return (
+    return (<>
+    <Helmet>
+    <title> About Us | Kantor Akuntan Publik Wisnu & Katili Cabang Bekasi (Cikarang)</title>
+    <meta name="description" content="KAP Wisnu & Katili, didirikan 2018, kini memiliki cabang resmi bernama KAP WIKA Cikarang yang berdiri sejak 2022, dipimpin oleh Alister Aritonang." />
+    <link rel="canonical" href="/about" />
+    </Helmet>
+
       <section className="page-container">
-    <h1 className="page-title">Tentang Kami</h1>
+    <h1 className="page-title">About Us</h1>
     
     <img src={AboutUsImage} alt="" className="img-fluid rounded center" width="60%"/>
       <br></br>
@@ -40,7 +47,9 @@ const AboutPage = () => {
     Informasi yang diberikan dalam Company Profile ini dibatasi pada hal-hal yang essensial saja, sesuai dengan kebutuhan dasar. 
     </p>
 
-    </section>            
+    </section> 
+    </>
+
     );
   };
   

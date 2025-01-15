@@ -1,8 +1,16 @@
+import { Helmet } from "react-helmet-async";
 import "../../Pages.css"
 import NeedMoreInfoComponent from "../../RootComponent/NeedMoreInfoComponent";
 
 const JasaKompilasiLaporanKeuanganPage = () => {
     return (
+      <>
+          <Helmet>
+            <title>Jasa Kompilasi Laporan Keuangan | Kantor Akuntan Publik Wisnu & Katili Cabang Bekasi (Cikarang)</title>
+            <meta name="description" content="KAP WIKA Cikarang: Kompilasi laporan keuangan profesional, termasuk neraca, laba rugi, dan buku besar (General Ledger)." />
+            <link rel="canonical" href="/services/jasa-non-atestasi/jasa-kompilasi-laporan-keuangan" />
+          </Helmet>
+
         <section className="page-container">
         <nav aria-label="breadcrumb">
           <ol className="breadcrumb">
@@ -29,7 +37,8 @@ const JasaKompilasiLaporanKeuanganPage = () => {
 
         <NeedMoreInfoComponent/>
 
-        </section>            
+        </section>   
+        </>         
         );
   };
   

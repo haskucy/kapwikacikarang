@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import "../Pages.css"
 import JasaAtestasiCard from "../RootComponent/JasaAtestasiCard";
 import NeedMoreInfoComponent from "../RootComponent/NeedMoreInfoComponent";
@@ -5,6 +6,12 @@ import NeedMoreInfoComponent from "../RootComponent/NeedMoreInfoComponent";
 const JasaAtestasiPage = () => {
     let title = "Jasa Atestasi"
     return (
+      <>
+                  <Helmet>
+                      <title> Jasa Atestasi | Kantor Akuntan Publik Wisnu & Katili Cabang Bekasi (Cikarang)</title>
+                      <meta name="description" content="KAP WIKA Cikarang: Jasa atestasi profesional, audit umum, investigasi khusus, audit pengelolaan, dan review." />
+                      <link rel="canonical" href="/services/jasa-atestasi" />
+                  </Helmet>
         <section className="page-container">
         <nav aria-label="breadcrumb">
           <ol className="breadcrumb">
@@ -27,7 +34,8 @@ const JasaAtestasiPage = () => {
         <br></br>
 
         <NeedMoreInfoComponent/>
-        </section>            
+        </section>         
+        </>   
         );
   };
   

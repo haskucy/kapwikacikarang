@@ -22,10 +22,16 @@ import './MainPage.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import NeedMoreInfoComponent from '../RootComponent/NeedMoreInfoComponent'
+import { Helmet } from 'react-helmet-async'
 
 
 const MainPage = () => {
     return (<>
+    <Helmet>
+        <title>Kantor Akuntan Publik Wisnu & Katili Cabang Bekasi (Cikarang)</title>
+        <meta name="description" content="KAP Wisnu & Katili Cabang Bekasi (Cikarang): Menyediakan layanan akuntansi, audit, perpajakan, dan konsultasi keuangan profesional. Hubungi kami untuk solusi keuangan!" />
+        <link rel="canonical" href="/" />
+    </Helmet>
     <section id='Hero'>
         <div className="py-lg-14 py-10 position-relative bg-cover">
 
@@ -46,8 +52,10 @@ const MainPage = () => {
             </div>
             <div className="col-12 col-lg-6 order-md-2">
             <div className="mb-2 mb-md-0 mt-5 pe-n5">
-                <img src={HeroImage} alt=""
-                className="img-fluid mw-md-130 rounded"/>
+                <img src={HeroImage} alt="Layanan Akuntansi KAPWIKA Cabang Cikarang"
+                width={600}
+                height={400}
+                className="img-fluid mw-md-130 rounded center"/>
             </div>
             </div>
         </div>
@@ -62,7 +70,7 @@ const MainPage = () => {
         </div>
         <br></br>
         
-        <img src={AboutUsImage} alt="" className="img-fluid rounded center" width="50%" loading='lazy'/>
+        <img src={AboutUsImage} alt="Logo KAP WIKA" className="img-fluid rounded center" width="50%" height="50%" loading='lazy'/>
         <br></br>
         <br></br>
 
@@ -117,56 +125,56 @@ const MainPage = () => {
     </div>
     <div className="carousel-inner">
         <div className="carousel-item active">
-            <img src={KegiatanImage} className="d-block w-100 rounded" alt="First Slide"/>
+            <img src={KegiatanImage} className="d-block w-100 rounded" alt="First Slide" width="100%" height="100%"/>
             <div className="carousel-caption d-none d-md-block">
                 <h5>Client Consultation</h5>
                 <p className='text-center'>Engaging in strategic discussions to understand client needs and goals.</p>
             </div>
         </div>
         <div className="carousel-item">
-            <img src={KegiatanImage2} className="d-block w-100 rounded" alt="Second Slide"/>
+            <img src={KegiatanImage2} className="d-block w-100 rounded" alt="Second Slide" width="100%" height="100%"/>
             <div className="carousel-caption d-none d-md-block">
                 <h5>Team Collaboration with Clients</h5>
                 <p className='text-center'>Building strong partnerships through teamwork and trust.</p>
             </div>
         </div>
         <div className="carousel-item">
-            <img src={KegiatanImage3} className="d-block w-100 rounded" alt="Third Slide"/>
+            <img src={KegiatanImage3} className="d-block w-100 rounded" alt="Third Slide" width="100%" height="100%"/>
             <div className="carousel-caption d-none d-md-block">
                 <h5>Client Engagement Session</h5>
                 <p className='text-center'>Discussing tailored solutions to meet client expectations.</p>
             </div>
         </div>
         <div className="carousel-item">
-            <img src={KegiatanImage4} className="d-block w-100 rounded" alt="Fourth Slide"/>
+            <img src={KegiatanImage4} className="d-block w-100 rounded" alt="Fourth Slide" width="100%" height="100%"/>
             <div className="carousel-caption d-none d-md-block">
                 <h5>Professional Collaboration</h5>
                 <p className='text-center'>Strengthening client relationships through effective communication.</p>
             </div>
         </div>
         <div className="carousel-item">
-            <img src={KegiatanImage5} className="d-block w-100 rounded" alt="Fifth Slide"/>
+            <img src={KegiatanImage5} className="d-block w-100 rounded" alt="Fifth Slide" width="100%" height="100%"/>
             <div className="carousel-caption d-none d-md-block">
                 <h5>Inventory Assessment with Client</h5>
                 <p className='text-center'>Conducting thorough stock evaluations to ensure accuracy.</p>
             </div>
         </div>
         <div className="carousel-item">
-            <img src={KegiatanImage6} className="d-block w-100 rounded" alt="Sixth Slide"/>
+            <img src={KegiatanImage6} className="d-block w-100 rounded" alt="Sixth Slide" width="100%" height="100%"/>
             <div className="carousel-caption d-none d-md-block">
                 <h5>Stock Verification Process</h5>
                 <p className='text-center'>Ensuring precise inventory management with client collaboration.</p>
             </div>
         </div>
         <div className="carousel-item">
-            <img src={KegiatanImage7} className="d-block w-100 rounded" alt="Seventh Slide"/>
+            <img src={KegiatanImage7} className="d-block w-100 rounded" alt="Seventh Slide" width="100%" height="100%"/>
             <div className="carousel-caption d-none d-md-block">
                 <h5>Inventory Audit Session</h5>
                 <p className='text-center'>Partnering with clients to maintain financial transparency.</p>
             </div>
         </div>
         <div className="carousel-item">
-            <img src={KegiatanImage8} className="d-block w-100 rounded" alt="Eight Slide"/>
+            <img src={KegiatanImage8} className="d-block w-100 rounded" alt="Eight Slide" width="100%" height="100%"/>
             <div className="carousel-caption d-none d-md-block">
                 <h5>Pilkada Audit for 2024 Regional Elections</h5>
                 <p className='text-center'>Ensuring compliance and accountability in electoral financial management.</p>
@@ -193,7 +201,7 @@ const MainPage = () => {
 
                 <div className="affiliation-logos">
                     <div className="logo-row">
-                        <img src={AffiliationLogoIAPI} alt="IAPI Logo" className="logo" loading='lazy'/>
+                        <img src={AffiliationLogoIAPI} alt="IAPI Logo" className="logo" loading='lazy' />
                         <img src={AffiliationLogoPajak} alt="Kemenkeu Logo" className="logo" loading='lazy'/>
                         <img src={AffiliationLogoBI} alt="Bank Indonesia Logo" className="logo" loading='lazy'/>
                         <img src={AffiliationLogoOJK} alt="OJK Logo" className="logo" loading='lazy'/>
@@ -203,7 +211,7 @@ const MainPage = () => {
                 <br></br>
                 <br></br>
 
-                <img src={PartnerImage} alt="IAPI Logo" className="center rounded" width="100%" loading='lazy'/>
+                <img src={PartnerImage} alt="partner KAP WIKA" className="center rounded" width="100%" loading='lazy'/>
 
 
 

@@ -1,8 +1,15 @@
+import { Helmet } from "react-helmet-async";
 import "../../Pages.css"
 import NeedMoreInfoComponent from "../../RootComponent/NeedMoreInfoComponent";
 
 const PemeriksaanUmumPage = () => {
     return (
+      <>
+            <Helmet>
+              <title>Pemeriksaan Umum (General Audit) | Kantor Akuntan Publik Wisnu & Katili Cabang Bekasi (Cikarang)</title>
+              <meta name="description" content="KAP WIKA Cikarang: Pemeriksaan umum (General Audit) laporan keuangan untuk memberikan pernyataan pendapat profesional." />
+              <link rel="canonical" href="/services/jasa-atestasi/pemeriksaan-umum" />
+            </Helmet>
         <section className="page-container">
         <nav aria-label="breadcrumb">
           <ol className="breadcrumb">
@@ -26,7 +33,8 @@ const PemeriksaanUmumPage = () => {
 
         <NeedMoreInfoComponent/>
 
-        </section>            
+        </section>   
+        </>         
         );
   };
   

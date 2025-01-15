@@ -1,8 +1,16 @@
+import { Helmet } from "react-helmet-async";
 import "../../Pages.css"
 import NeedMoreInfoComponent from "../../RootComponent/NeedMoreInfoComponent";
 
 const StudiKelayakanPage = () => {
     return (
+      <>
+          <Helmet>
+            <title>Studi Kelayakan (Feasibility Study) | Kantor Akuntan Publik Wisnu & Katili Cabang Bekasi (Cikarang)</title>
+            <meta name="description" content="KAP WIKA Cikarang: Studi kelayakan (feasibility study) proyek untuk analisis dan evaluasi organisasi, pemasaran, teknis, dan keuangan." />
+            <link rel="canonical" href="/services/jasa-non-atestasi/studi-kelayakan" />
+          </Helmet>
+
         <section className="page-container">
         <nav aria-label="breadcrumb">
           <ol className="breadcrumb">
@@ -34,6 +42,7 @@ const StudiKelayakanPage = () => {
         <NeedMoreInfoComponent/>
 
         </section>            
+        </>
         );
   };
   

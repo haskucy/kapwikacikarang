@@ -1,5 +1,7 @@
 import './FooterComponent.css';
 import InstagramLogo from '../assets/social-media/instagram.png'
+import FacebookLogo from '../assets/social-media/facebook.png'
+
 
 /*
               <div className="google-map-code">
@@ -49,13 +51,13 @@ const FooterComponent = () => {
             </div>
             
             <div className="social-icons">
-              <a href="https://www.instagram.com/kapwikacabcikarang" className="social-icon"><img src={InstagramLogo} width='25px' loading='lazy'/></a>
+              <a href="https://www.facebook.com/profile.php?id=61568422740574" className="social-icon"><img src={FacebookLogo} width='20px' height="20px" loading='lazy' alt='KAPWIKA Cikarang facebook page link'/></a>
+              <a href="https://www.instagram.com/kapwikacabcikarang" className="social-icon"><img src={InstagramLogo} width='20px' height="20px" loading='lazy' alt='KAPWIKA Cikarang instagram page link'/></a>
+
             </div>
           </div>
 
           <div className="footer-right">
-
-
 
             <form className="contact-form" action="https://api.web3forms.com/submit" method="POST">
             <input type="hidden" name="access_key" value="9315887a-b513-4ab9-bf87-cd29bdf4e5be"/>

@@ -1,8 +1,16 @@
+import { Helmet } from "react-helmet-async";
 import "../../Pages.css"
 import NeedMoreInfoComponent from "../../RootComponent/NeedMoreInfoComponent";
 
 const KonsultasiManajemenDanPerpajakanPage = () => {
     return (
+      <>
+          <Helmet>
+            <title>Konsultasi Manajemen dan Perpajakan | Kantor Akuntan Publik Wisnu & Katili Cabang Bekasi (Cikarang)</title>
+            <meta name="description" content="KAP WIKA Cikarang: Konsultasi manajemen dan perpajakan, termasuk SPT, perencanaan pajak, dan layanan insidental." />
+            <link rel="canonical" href="/services/jasa-non-atestasi/konsultasi-manajemen-dan-perpajakan" />
+          </Helmet>
+
         <section className="page-container">
         <nav aria-label="breadcrumb">
           <ol className="breadcrumb">
@@ -60,7 +68,8 @@ const KonsultasiManajemenDanPerpajakanPage = () => {
 
         <NeedMoreInfoComponent/>
 
-        </section>            
+        </section>        
+        </>    
         );
   };
   

@@ -1,8 +1,15 @@
+import { Helmet } from "react-helmet-async";
 import "../../Pages.css"
 import NeedMoreInfoComponent from "../../RootComponent/NeedMoreInfoComponent";
 
 const PenyusunanAnggaranDanPenyusunanSistemAnggaranPage = () => {
     return (
+      <>
+          <Helmet>
+            <title>Penyusunan Anggaran dan Penyusunan Sistem Anggaran | Kantor Akuntan Publik Wisnu & Katili Cabang Bekasi (Cikarang)</title>
+            <meta name="description" content="KAP WIKA Cikarang: Penyusunan anggaran dan sistem akuntansi untuk efisiensi dan pengawasan internal." />
+            <link rel="canonical" href="/services/jasa-non-atestasi/penyusunan-anggaran-dan-penyusunan-sistem-anggaran" />
+          </Helmet>
         <section className="page-container">
         <nav aria-label="breadcrumb">
           <ol className="breadcrumb">
@@ -39,7 +46,8 @@ const PenyusunanAnggaranDanPenyusunanSistemAnggaranPage = () => {
 
         <NeedMoreInfoComponent/>
 
-        </section>            
+        </section>    
+        </>        
         );
   };
   
