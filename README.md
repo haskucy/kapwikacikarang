@@ -5,8 +5,6 @@ Website React untuk KAPWIKA CIKARANG
 - Active link in navbar
 
 ## TODO Next:
-- Fix Google Map Responsiveness ✅
-- Remove Lazy loading at carousel ✅
-- Decrease The size of Images ✅
+- Social Media: https://www.facebook.com/profile.php?id=61568422740574
 - Email SES and SNS
 
