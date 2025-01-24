@@ -37,17 +37,24 @@ const FooterComponent = () => {
               <h4 id='main-office'><b>Office Cabang Cikarang</b></h4>
               <p>Jl. Kancil VII No. 148 RT.005/007 Kel. Sertajaya,</p>
               <p>Kec. Cikarang Timur, Kab. Bekasi 17550</p>
-              <p>Telp: 021-89096738</p>
-              <p>HP: 0821-2471-9496 / 0812-907-2425</p>
-              <p>Email: kapwikacabangcikarang@gmail.com</p>
+              <div className='small-indent'></div>
+              <p><b>Phone:</b> 021-89096738</p>
+              <div className='small-indent'></div>
+              <p><b>Mobile:</b> 0821-2471-9496 | 0812-907-2425</p>
+              <div className='small-indent'></div>
+              <p><b>Email:</b> <a className='no-colored-link' href="mailto:mail@kapwikacikarang.com">mail@kapwikacikarang.com</a> | <a className='no-colored-link' href="mailto:kapwikacabangcikarang@gmail.com">kapwikacabangcikarang@gmail.com</a></p>
+
+
             </div>
             
             <div className="footer-section">
               <h4><b>Workshop</b></h4>
               <p>Rukan Grand Galaxy City Blok RRG 2 No. 31 Jakarta,</p>
               <p>Bekasi Selatan, Kota Bekasi 17147</p>
-              <p>Telp: 021-82783828</p>
-              <p>HP: 0878-8660-3004</p>
+              <div className='small-indent'></div>
+              <p><b>Phone:</b> 021-82783828</p>
+              <div className='small-indent'></div>
+              <p><b>Mobile:</b> 0878-8660-3004</p>
             </div>
             
             <div className="social-icons">

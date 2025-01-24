@@ -116,3 +116,18 @@
   .social-icon:hover{
     transform: scale(1.1); /* Slight zoom on hover */
   }
+
+  .small-indent{
+    margin-top: 5px;
+  }
+
+  .no-colored-link{
+    color:#523000;
+    text-decoration: none;
+  }
+
+  .no-colored-link:hover{
+    color:#a25f00;
+    text-decoration: none;
+  }
+
