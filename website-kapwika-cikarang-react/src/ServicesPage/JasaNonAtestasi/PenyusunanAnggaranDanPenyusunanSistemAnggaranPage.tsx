@@ -7,7 +7,7 @@ const PenyusunanAnggaranDanPenyusunanSistemAnggaranPage = () => {
       <>
           <Helmet>
             <title>Penyusunan Anggaran dan Penyusunan Sistem Anggaran | Kantor Akuntan Publik Alister & Hamonangan</title>
-            <meta name="description" content="KAP WIKA Cikarang: Penyusunan anggaran dan sistem akuntansi untuk efisiensi dan pengawasan internal." />
+            <meta name="description" content="KAP Alister & Hamonangan: Penyusunan anggaran dan sistem akuntansi untuk efisiensi dan pengawasan internal." />
             <link rel="canonical" href="/services/jasa-non-atestasi/penyusunan-anggaran-dan-penyusunan-sistem-anggaran" />
           </Helmet>
           

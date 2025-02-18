@@ -8,7 +8,7 @@ const ReviewPage = () => {
       <>
                   <Helmet>
                     <title>Jasa Review | Kantor Akuntan Publik Alister & Hamonangan</title>
-                    <meta name="description" content="KAP WIKA Cikarang: Jasa review informasi keuangan dengan keyakinan negatif untuk pengambilan keputusan." />
+                    <meta name="description" content="KAP Alister & Hamonangan: Jasa review informasi keuangan dengan keyakinan negatif untuk pengambilan keputusan." />
                     <link rel="canonical" href="/services/jasa-atestasi/jasa-review" />
                   </Helmet>
         <section className="page-container">

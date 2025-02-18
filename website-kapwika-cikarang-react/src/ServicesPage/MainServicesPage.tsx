@@ -7,7 +7,7 @@ const MainServicesPage = () => {
     return (<>
             <Helmet>
                 <title> Our Services | Kantor Akuntan Publik Alister & Hamonangan</title>
-                <meta name="description" content="KAP Alister & Hamonangan Cikarang: Melayani jasa atestasi dan non atestasi seperti audit, pajak, manajemen, dan akuntansi secara profesional. Hubungi kami!" />
+                <meta name="description" content="KAP Alister & Hamonangan: Melayani jasa atestasi dan non atestasi seperti audit, pajak, manajemen, dan akuntansi secara profesional. Hubungi kami!" />
                 <link rel="canonical" href="/services" />
             </Helmet>
         <section className="page-container">

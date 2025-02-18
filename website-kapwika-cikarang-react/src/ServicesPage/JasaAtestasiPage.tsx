@@ -9,7 +9,7 @@ const JasaAtestasiPage = () => {
       <>
                   <Helmet>
                       <title> Jasa Atestasi | Kantor Akuntan Publik Alister & Hamonangan</title>
-                      <meta name="description" content="KAP WIKA Cikarang: Jasa atestasi profesional, audit umum, investigasi khusus, audit pengelolaan, dan review." />
+                      <meta name="description" content="KAP Alister & Hamonangan: Jasa atestasi profesional, audit umum, investigasi khusus, audit pengelolaan, dan review." />
                       <link rel="canonical" href="/services/jasa-atestasi" />
                   </Helmet>
         <section className="page-container">

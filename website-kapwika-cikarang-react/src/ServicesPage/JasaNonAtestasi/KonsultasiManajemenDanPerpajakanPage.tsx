@@ -7,7 +7,7 @@ const KonsultasiManajemenDanPerpajakanPage = () => {
       <>
           <Helmet>
             <title>Konsultasi Manajemen dan Perpajakan | Kantor Akuntan Publik Alister & Hamonangan</title>
-            <meta name="description" content="KAP WIKA Cikarang: Konsultasi manajemen dan perpajakan, termasuk SPT, perencanaan pajak, dan layanan insidental." />
+            <meta name="description" content="KAP Alister & Hamonangan: Konsultasi manajemen dan perpajakan, termasuk SPT, perencanaan pajak, dan layanan insidental." />
             <link rel="canonical" href="/services/jasa-non-atestasi/konsultasi-manajemen-dan-perpajakan" />
           </Helmet>
 

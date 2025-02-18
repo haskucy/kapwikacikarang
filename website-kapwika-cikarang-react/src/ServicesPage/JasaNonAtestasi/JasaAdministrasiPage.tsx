@@ -7,7 +7,7 @@ const JasaAdministrasiPage = () => {
       <>
           <Helmet>
             <title>Jasa Administrasi | Kantor Akuntan Publik Alister & Hamonangan</title>
-            <meta name="description" content="KAP WIKA Cikarang: Jasa administrasi, pembukuan, dan penyusunan laporan keuangan secara manual atau digital." />
+            <meta name="description" content="KAP Alister & Hamonangan: Jasa administrasi, pembukuan, dan penyusunan laporan keuangan secara manual atau digital." />
             <link rel="canonical" href="/services/jasa-non-atestasi/jasa-administrasi" />
           </Helmet>
         <section className="page-container">

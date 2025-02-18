@@ -7,7 +7,7 @@ const AboutPage = () => {
     return (<>
     <Helmet>
     <title> About Us | Kantor Akuntan Publik Alister & Hamonangan</title>
-    <meta name="description" content="KAP Alister & Hamonangan, didirikan 2018, kini memiliki cabang resmi bernama KAP WIKA Cikarang yang berdiri sejak 2022, dipimpin oleh Alister Aritonang." />
+    <meta name="description" content="KAP Alister & Hamonangan, didirikan 2018, kini memiliki cabang resmi bernama KAP Alister & Hamonangan yang berdiri sejak 2022, dipimpin oleh Alister Aritonang." />
     <link rel="canonical" href="/about" />
     </Helmet>
 

@@ -7,7 +7,7 @@ const PemeriksaanKhususPage = () => {
                   <>
                               <Helmet>
                                   <title>Pemeriksaan Khusus (Special Investigation) | Kantor Akuntan Publik Alister & Hamonangan</title>
-                                  <meta name="description" content="KAP WIKA Cikarang: Pemeriksaan kesesuaian asersi khusus (Special Investigation) untuk masalah pembelian, kecurangan atau penggelapan, kalkulasi harga pokok, dan lainnya." />
+                                  <meta name="description" content="KAP Alister & Hamonangan: Pemeriksaan kesesuaian asersi khusus (Special Investigation) untuk masalah pembelian, kecurangan atau penggelapan, kalkulasi harga pokok, dan lainnya." />
                                   <link rel="canonical" href="/services/jasa-atestasi/pemeriksaan-khusus" />
                               </Helmet>
         <section className="page-container">

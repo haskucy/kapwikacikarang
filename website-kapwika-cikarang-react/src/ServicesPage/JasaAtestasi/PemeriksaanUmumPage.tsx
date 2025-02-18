@@ -7,7 +7,7 @@ const PemeriksaanUmumPage = () => {
       <>
             <Helmet>
               <title>Pemeriksaan Umum (General Audit) | Kantor Akuntan Publik Alister & Hamonangan</title>
-              <meta name="description" content="KAP WIKA Cikarang: Pemeriksaan umum (General Audit) laporan keuangan untuk memberikan pernyataan pendapat profesional." />
+              <meta name="description" content="KAP Alister & Hamonangan: Pemeriksaan umum (General Audit) laporan keuangan untuk memberikan pernyataan pendapat profesional." />
               <link rel="canonical" href="/services/jasa-atestasi/pemeriksaan-umum" />
             </Helmet>
         <section className="page-container">
