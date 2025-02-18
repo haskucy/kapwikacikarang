@@ -1,5 +1,5 @@
 import './NavbarComponent.css';
-import NavbarLogo from '../assets/LogoNavbarComponent.jpg'
+import NavbarLogo from '../assets/LogoNavbarComponent.png'
 import CompanyProfileFile from '../assets/CompanyProfileKapwika.pdf'
 import 'bootstrap/dist/css/bootstrap.css'
 

@@ -22,7 +22,7 @@ const JasaKompilasiLaporanKeuanganPage = () => {
         <br></br>
         <h1 className="page-title">Jasa Kompilasi Laporan Keuangan</h1>
         <p>
-        Kantor Akuntan Publik WISNU dan KATILI dapat melakukan kompilasi laporan keuangan berdasarkan catatan data keuangan serta informasi lainnya yang diberikan manajemen suatu entitas ekonomi. 
+        Kantor Akuntan Publik ALISTER & HAMONANGAN dapat melakukan kompilasi laporan keuangan berdasarkan catatan data keuangan serta informasi lainnya yang diberikan manajemen suatu entitas ekonomi. 
         </p>
         <p>
         Dalam jasa kompilasi, akuntan publik melaksanakan berbagai jasa akuntansi kliennya, seperti pencatatan (baik dengan manual maupun dengan komputer) transaksi akuntansi bagi kliennya sampai dengan penyusunan laporan keuangan.

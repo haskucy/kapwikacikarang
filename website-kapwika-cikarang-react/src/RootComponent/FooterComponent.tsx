@@ -78,12 +78,12 @@ const FooterComponent = () => {
               <label>Message</label>
               <textarea name="message" placeholder="Message" required></textarea>
               
-              <button type="submit" className="send-button">Send</button>
+              <button type="submit" className="send-button">Send Messages</button>
             </form>
           </div>
         </div>
         <div className="footer-bottom">
-          <p id='footer-bottom-p'>Copyright &copy; {currentYear} KAPWIKA Bekasi. All rights reserved.</p>
+          <p id='footer-bottom-p'>Copyright &copy; {currentYear} KAP Alister & Hamonangan. All rights reserved.</p>
         </div>
       </div>
     </footer>

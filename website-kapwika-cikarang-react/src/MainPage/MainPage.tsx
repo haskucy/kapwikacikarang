@@ -1,5 +1,5 @@
 import HeroImage from '../assets/HeroImage.jpg'
-import AboutUsImage from '../assets/about-us.jpg'
+import AboutUsImage from '../assets/about-us.png'
 import KegiatanImage from "../assets/kegiatan/Kegiatan-1.jpg"
 import KegiatanImage2 from "../assets/kegiatan/Kegiatan-2.jpg"
 import KegiatanImage3 from "../assets/kegiatan/Kegiatan-3.jpg"
@@ -28,8 +28,8 @@ import { Helmet } from 'react-helmet-async'
 const MainPage = () => {
     return (<>
     <Helmet>
-        <title>Kantor Akuntan Publik Alister Hamonangan</title>
-        <meta name="description" content="KAP Wisnu & Katili Cabang Bekasi (Cikarang): Menyediakan layanan akuntansi, audit, perpajakan, dan konsultasi keuangan profesional. Hubungi kami untuk solusi keuangan!" />
+        <title>Kantor Akuntan Publik Alister & Hamonangan</title>
+        <meta name="description" content="KAP Alister & Hamonangan: Menyediakan layanan akuntansi, audit, perpajakan, dan konsultasi keuangan profesional. Hubungi kami untuk solusi keuangan!" />
         <link rel="canonical" href="/" />
     </Helmet>
     <section id='Hero'>
@@ -81,7 +81,7 @@ const MainPage = () => {
         </p>
 
         <div className="mb-8 mb-lg-0" id='learn-more'>
-                <a href="/about" className="btn btn-primary me-3 mb-2 mb-lg-0" id='simple-button'>
+                <a href="/about" className="btn btn-primary me-3 mb-2 mb-lg-0 center" id='simple-button'>
                 Read More
                 </a>
             </div>

@@ -1,7 +1,7 @@
 /* FooterComponent.css */
 
 .footer {
-    background-color: #ffffff;
+    background-color: #fff;
     padding: 40px 20px;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
     font-family: Garamond, serif;
@@ -75,14 +75,20 @@
   }
   
   .send-button {
-    background-color: #feb246;
-    color: #000;
+    background-color: #0067c8;
+    color: #fff;
     padding: 10px 25px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     margin-right: 200px;
   }
+
+  .send-button:hover {
+    background-color: #2e94f3;
+  }
+
+  
   
   .footer-bottom {
     margin: auto;
@@ -122,12 +128,12 @@
   }
 
   .no-colored-link{
-    color:#523000;
+    color:#0067c8;
     text-decoration: none;
   }
 
   .no-colored-link:hover{
-    color:#a25f00;
+    color:#2e94f3;
     text-decoration: none;
   }
 

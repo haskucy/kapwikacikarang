@@ -1,9 +1,9 @@
 .navbar a{
     font-family: 'Garamond', serif;
-    color: #512b16;
+    color: #333333;
   }
 
 .navbar a:hover{
     font-family: 'Garamond', serif;
-    color: #feb246;
+    color: #0067c8;
   }

@@ -7,15 +7,15 @@
     font-family: 'Garamond', serif;
     font-weight: 600;
     font-size: 14pt;
-    background-color: #feb246;
-    color: #1b1b1b;
-    border-color: #feb246;
+    background-color: #0067c8;
+    color: #ffffff;
+    border-color: #0067c8;
 }
 
 #hero-button:hover{
-    background-color: #ffce89;
-    color: #1b1b1b;
-    border-color: #ffce89;
+    background-color: #2e94f3;
+    color: #ffffff;
+    border-color: #2e94f3;
 }
 
 hr.h1-decorations-1{
@@ -53,15 +53,15 @@ p{
     font-family: 'Garamond', serif;
     font-weight: 600;
     font-size: 14pt;
-    background-color: #feb246;
-    color: #1b1b1b;
-    border-color: #feb246;
+    background-color: #0067c8;
+    color: #ffffff;
+    border-color: #0067c8;
 }
 
 #simple-button:hover{
-    background-color: #ffce89;
-    color: #1b1b1b;
-    border-color: #ffce89;
+    background-color: #2e94f3;
+    color: #ffffff;
+    border-color: #2e94f3;
 }
 
 #learn-more{

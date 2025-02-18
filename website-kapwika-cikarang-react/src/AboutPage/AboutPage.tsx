@@ -1,5 +1,7 @@
 import { Helmet } from 'react-helmet-async'
-import AboutUsImage from '../assets/about-us.jpg'
+import AboutUsImage from '../assets/about-us.png'
+import NeedMoreInfoComponent from "../RootComponent/NeedMoreInfoComponent";
+
 
 const AboutPage = () => {
     return (<>
@@ -11,6 +13,7 @@ const AboutPage = () => {
 
       <section className="page-container">
     <h1 className="page-title">About Us</h1>
+    <br/>
     
     <img src={AboutUsImage} alt="" className="img-fluid rounded center" width="60%"/>
       <br></br>
@@ -47,7 +50,16 @@ const AboutPage = () => {
     Informasi yang diberikan dalam Company Profile ini dibatasi pada hal-hal yang essensial saja, sesuai dengan kebutuhan dasar. 
     </p>
 
+    <br/>
+    <br/>
+    <br/>
+
+    <NeedMoreInfoComponent/>
+
+
     </section> 
+
+
     </>
 
     );
