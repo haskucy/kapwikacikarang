@@ -6,8 +6,8 @@ import NeedMoreInfoComponent from "../RootComponent/NeedMoreInfoComponent";
 const AboutPage = () => {
     return (<>
     <Helmet>
-    <title> About Us | Kantor Akuntan Publik Wisnu & Katili Cabang Bekasi (Cikarang)</title>
-    <meta name="description" content="KAP Wisnu & Katili, didirikan 2018, kini memiliki cabang resmi bernama KAP WIKA Cikarang yang berdiri sejak 2022, dipimpin oleh Alister Aritonang." />
+    <title> About Us | Kantor Akuntan Publik Alister & Hamonangan</title>
+    <meta name="description" content="KAP Alister & Hamonangan, didirikan 2018, kini memiliki cabang resmi bernama KAP WIKA Cikarang yang berdiri sejak 2022, dipimpin oleh Alister Aritonang." />
     <link rel="canonical" href="/about" />
     </Helmet>
 

@@ -5,7 +5,7 @@ import is404Image from "./assets/404.png"
 const NoExistPage = () => {
     return (<>
         <Helmet>
-            <title> 404 Halaman Tidak Ditemukan | Kantor Akuntan Publik Wisnu & Katili Cabang Bekasi (Cikarang)</title>
+            <title> 404 Halaman Tidak Ditemukan | Kantor Akuntan Publik Alister & Hamonangan</title>
             <meta name="description" content="Oops, Halaman yang anda cari tidak ditemukan" />
             <link rel="canonical" href="/404" />
         </Helmet>

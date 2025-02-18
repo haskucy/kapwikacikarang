@@ -6,7 +6,7 @@ const StudiKelayakanPage = () => {
     return (
       <>
           <Helmet>
-            <title>Studi Kelayakan (Feasibility Study) | Kantor Akuntan Publik Wisnu & Katili Cabang Bekasi (Cikarang)</title>
+            <title>Studi Kelayakan (Feasibility Study) | Kantor Akuntan Publik Alister & Hamonangan</title>
             <meta name="description" content="KAP WIKA Cikarang: Studi kelayakan (feasibility study) proyek untuk analisis dan evaluasi organisasi, pemasaran, teknis, dan keuangan." />
             <link rel="canonical" href="/services/jasa-non-atestasi/studi-kelayakan" />
           </Helmet>

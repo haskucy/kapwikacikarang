@@ -6,7 +6,7 @@ const PemeriksaanPengelolaanPage = () => {
     return (
     <>
       <Helmet>
-        <title>Pemeriksaan Pengelolaan (Management Audit) | Kantor Akuntan Publik Wisnu & Katili Cabang Bekasi (Cikarang)</title>
+        <title>Pemeriksaan Pengelolaan (Management Audit) | Kantor Akuntan Publik Alister & Hamonangan</title>
         <meta name="description" content="KAP WIKA Cikarang: Pemeriksaan pengelolaan (Management Audit) untuk evaluasi manajemen yang sehat, efektif, dan efisien." />
         <link rel="canonical" href="/services/jasa-atestasi/pemeriksaan-pengelolaan" />
       </Helmet>

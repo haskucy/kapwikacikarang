@@ -6,7 +6,7 @@ const PenyusunanSistemAkuntansiPage = () => {
     return (
       <>
           <Helmet>
-            <title>Penyusunan Sistem Akuntansi | Kantor Akuntan Publik Wisnu & Katili Cabang Bekasi (Cikarang)</title>
+            <title>Penyusunan Sistem Akuntansi | Kantor Akuntan Publik Alister & Hamonangan</title>
             <meta name="description" content="KAP WIKA Cikarang: Penyusunan sistem akuntansi untuk laporan keuangan yang efektif dan efisien." />
             <link rel="canonical" href="/services/jasa-non-atestasi/penyusunan-sistem-akuntansi" />
           </Helmet>

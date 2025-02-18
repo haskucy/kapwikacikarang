@@ -6,7 +6,7 @@ const SistemInformasiManajemenPage = () => {
     return (
       <>
           <Helmet>
-            <title>Sistem Informasi Manajemen | Kantor Akuntan Publik Wisnu & Katili Cabang Bekasi (Cikarang)</title>
+            <title>Sistem Informasi Manajemen | Kantor Akuntan Publik Alister & Hamonangan</title>
             <meta name="description" content="KAP WIKA Cikarang: Solusi sistem informasi manajemen untuk pencatatan keuangan yang efektif dan efisien." />
             <link rel="canonical" href="/services/jasa-non-atestasi/sistem-informasi-manajemen" />
           </Helmet>
