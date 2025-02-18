@@ -34,7 +34,7 @@ const FooterComponent = () => {
                     aria-hidden="false"
                 />
                   </div>
-              <h4 id='main-office'><b>Office Cabang Cikarang</b></h4>
+              <h4 id='main-office'><b>Office Pusat</b></h4>
               <p>Jl. Kancil VII No. 148 RT.005/007 Kel. Sertajaya,</p>
               <p>Kec. Cikarang Timur, Kab. Bekasi 17550</p>
               <div className='small-indent'></div>
@@ -42,7 +42,7 @@ const FooterComponent = () => {
               <div className='small-indent'></div>
               <p><b>Mobile:</b> 0821-2471-9496 | 0812-907-2425</p>
               <div className='small-indent'></div>
-              <p><b>Email:</b> <a className='no-colored-link' href="mailto:mail@kapwikacikarang.com">mail@kapwikacikarang.com</a> | <a className='no-colored-link' href="mailto:kapwikacabangcikarang@gmail.com">kapwikacabangcikarang@gmail.com</a></p>
+              <p><b>Email:</b> <a className='no-colored-link' href="mailto:mail@kapwikacikarang.com">mail@kapwikacikarang.com</a> | <a className='no-colored-link' href="mailto:kapalisterhamonangan@gmail.com">kapalisterhamonangan@gmail.com</a></p>
 
 
             </div>
@@ -67,7 +67,7 @@ const FooterComponent = () => {
           <div className="footer-right">
 
             <form className="contact-form" action="https://api.web3forms.com/submit" method="POST">
-            <input type="hidden" name="access_key" value="9315887a-b513-4ab9-bf87-cd29bdf4e5be"/>
+            <input type="hidden" name="access_key" value="d8eb19dd-f605-4014-8e78-f66923227e35"/>
               <br></br>
               <label>Name</label>
               <input type="text" name="Name" placeholder="Name" required autoComplete='on'/>

@@ -28,7 +28,7 @@ import { Helmet } from 'react-helmet-async'
 const MainPage = () => {
     return (<>
     <Helmet>
-        <title>Kantor Akuntan Publik Wisnu & Katili Cabang Bekasi (Cikarang)</title>
+        <title>Kantor Akuntan Publik Alister Hamonangan</title>
         <meta name="description" content="KAP Wisnu & Katili Cabang Bekasi (Cikarang): Menyediakan layanan akuntansi, audit, perpajakan, dan konsultasi keuangan profesional. Hubungi kami untuk solusi keuangan!" />
         <link rel="canonical" href="/" />
     </Helmet>
@@ -40,7 +40,7 @@ const MainPage = () => {
 
             <div className="col-12 col-lg-6 order-md-1 pt-5" id='title-hero'>
             <h1 className="display-2 mb-5 fw-bold fs-1">
-                Kantor Akuntan Publik <br/>Wisnu & Katili <br/>Cabang Bekasi (Cikarang)
+                Kantor Akuntan Publik <br/>Alister & Hamonangan<br/>
             </h1>
 
             <div className="mb-8 mb-lg-0">
