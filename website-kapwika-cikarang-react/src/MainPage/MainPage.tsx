@@ -1,4 +1,4 @@
-import HeroImage from '../assets/HeroImage.jpg'
+import HeroImage from '../assets/HeroImage.png'
 import AboutUsImage from '../assets/about-us.png'
 import KegiatanImage from "../assets/kegiatan/Kegiatan-1.jpg"
 import KegiatanImage2 from "../assets/kegiatan/Kegiatan-2.jpg"
@@ -33,6 +33,7 @@ const MainPage = () => {
         <link rel="canonical" href="/" />
     </Helmet>
     <section id='Hero'>
+    <br></br>
         <div className="py-lg-14 py-10 position-relative bg-cover">
 
         <div className="container">
@@ -52,7 +53,7 @@ const MainPage = () => {
             </div>
             <div className="col-12 col-lg-6 order-md-2">
             <div className="mb-2 mb-md-0 mt-5 pe-n5">
-                <img src={HeroImage} alt="Layanan Akuntansi KAPWIKA Cabang Cikarang"
+                <img src={HeroImage} alt="Layanan Akuntansi KAP Alister & Hamonangan"
                 width={600}
                 height={400}
                 className="img-fluid mw-md-130 rounded center"/>
@@ -62,6 +63,8 @@ const MainPage = () => {
 
         </div>
         </div>
+        <br></br>
+        <br></br>
     </section>
     <section className="section-part" id="about-short">
         <div className="h1-title">
@@ -70,7 +73,7 @@ const MainPage = () => {
         </div>
         <br></br>
         
-        <img src={AboutUsImage} alt="Logo KAP WIKA" className="img-fluid rounded center" width="50%" height="50%" loading='lazy'/>
+        <img src={AboutUsImage} alt="Logo KAP Alister & Hamonangan" className="img-fluid rounded center" width="50%" height="50%" loading='lazy'/>
         <br></br>
         <br></br>
 
@@ -81,7 +84,7 @@ const MainPage = () => {
         </p>
 
         <div className="mb-8 mb-lg-0" id='learn-more'>
-                <a href="/about" className="btn btn-primary me-3 mb-2 mb-lg-0 center" id='simple-button'>
+                <a href="/about" className="btn btn-primary mb-2 mb-lg-0 center" id='simple-button'>
                 Read More
                 </a>
             </div>
@@ -211,7 +214,7 @@ const MainPage = () => {
                 <br></br>
                 <br></br>
 
-                <img src={PartnerImage} alt="partner KAP WIKA" className="center rounded" width="100%" loading='lazy'/>
+                <img src={PartnerImage} alt="partner KAP Alister & Hamonangan" className="center rounded" width="100%" loading='lazy'/>
 
 
 

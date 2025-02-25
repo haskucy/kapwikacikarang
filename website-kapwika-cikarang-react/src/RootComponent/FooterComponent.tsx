@@ -42,7 +42,7 @@ const FooterComponent = () => {
               <div className='small-indent'></div>
               <p><b>Mobile:</b> 0821-2471-9496 | 0812-907-2425</p>
               <div className='small-indent'></div>
-              <p><b>Email:</b> <a className='no-colored-link' href="mailto:mail@kapwikacikarang.com">mail@kapwikacikarang.com</a> | <a className='no-colored-link' href="mailto:kapalisterhamonangan@gmail.com">kapalisterhamonangan@gmail.com</a></p>
+              <p><b>Email:</b> <a className='no-colored-link' href="mailto:info@kapalisterhamonangan.com">info@kapalisterhamonangan.com</a> | <a className='no-colored-link' href="mailto:kapalisterhamonangan@gmail.com">kapalisterhamonangan@gmail.com</a></p>
 
 
             </div>
@@ -67,7 +67,7 @@ const FooterComponent = () => {
           <div className="footer-right">
 
             <form className="contact-form" action="https://api.web3forms.com/submit" method="POST">
-            <input type="hidden" name="access_key" value="d8eb19dd-f605-4014-8e78-f66923227e35"/>
+            <input type="hidden" name="access_key" value="7ee174f4-fc0f-4842-8151-69fa608955fb"/>
               <br></br>
               <label>Name</label>
               <input type="text" name="Name" placeholder="Name" required autoComplete='on'/>
