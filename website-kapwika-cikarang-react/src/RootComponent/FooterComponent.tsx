@@ -34,7 +34,7 @@ const FooterComponent = () => {
                     aria-hidden="false"
                 />
                   </div>
-              <h4 id='main-office'><b>Office Pusat</b></h4>
+              <h4 id='main-office'><b>Office Pusat (Bekasi)</b></h4>
               <p>Jl. Kancil VII No. 148 RT.005/007 Kel. Sertajaya,</p>
               <p>Kec. Cikarang Timur, Kab. Bekasi 17550</p>
               <div className='small-indent'></div>
@@ -45,6 +45,18 @@ const FooterComponent = () => {
               <p><b>Email:</b> <a className='no-colored-link' href="mailto:info@kapalisterhamonangan.com">info@kapalisterhamonangan.com</a> | <a className='no-colored-link' href="mailto:kapalisterhamonangan@gmail.com">kapalisterhamonangan@gmail.com</a></p>
 
 
+            </div>
+
+            <div className="footer-section">
+              <h4><b>Bogor</b></h4>
+              <p>Ruko Food Plaza 6 No. 23 Cibubur Country (Cikeas)</p>
+              <p>Jl. Letda Natsir (Cikeas Raya), Bogor. Jawa Barat 16966</p>
+              <div className='small-indent'></div>
+              <p><b>Email:</b> <a className='no-colored-link' href="mailto:hms_a16@yahoo.co.id">hms_a16@yahoo.co.id</a></p>
+              <div className='small-indent'></div>
+              <p><b>Phone:</b> 021-22967939</p>
+              <div className='small-indent'></div>
+              <p><b>Mobile (WA):</b> 0813-1638-2024</p>
             </div>
             
             <div className="footer-section">

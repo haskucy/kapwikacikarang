@@ -8,12 +8,14 @@ import KegiatanImage5 from "../assets/kegiatan/Kegiatan-5.jpg"
 import KegiatanImage6 from "../assets/kegiatan/Kegiatan-6.jpg"
 import KegiatanImage7 from "../assets/kegiatan/Kegiatan-7.jpg"
 import KegiatanImage8 from "../assets/kegiatan/Kegiatan-8.jpg"
+import KegiatanImage9 from "../assets/kegiatan/Kegiatan-9.jpg"
+
 import AffiliationLogoBI from "../assets/Logo/bi.png"
 import AffiliationLogoBPK from "../assets/Logo/bpk.png"
 import AffiliationLogoPajak from "../assets/Logo/pajak.png"
 import AffiliationLogoIAPI from "../assets/Logo/iapi.png"
 import AffiliationLogoOJK from "../assets/Logo/ojk.png"
-import PartnerImage from "../assets/partner.png"
+import PartnerImage from "../assets/partner2.png"
 
 
 
@@ -124,14 +126,16 @@ const MainPage = () => {
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 7"></button>
+
 
     </div>
     <div className="carousel-inner">
         <div className="carousel-item active">
-            <img src={KegiatanImage} className="d-block w-100 rounded" alt="First Slide" width="100%" height="100%"/>
+            <img src={KegiatanImage9} className="d-block w-100 rounded" alt="First Slide" width="100%" height="100%"/>
             <div className="carousel-caption d-none d-md-block">
-                <h5>Client Consultation</h5>
-                <p className='text-center'>Engaging in strategic discussions to understand client needs and goals.</p>
+                <h5></h5>
+                <p className='text-center'></p>
             </div>
         </div>
         <div className="carousel-item">
@@ -174,6 +178,13 @@ const MainPage = () => {
             <div className="carousel-caption d-none d-md-block">
                 <h5>Inventory Audit Session</h5>
                 <p className='text-center'>Partnering with clients to maintain financial transparency.</p>
+            </div>
+        </div>
+        <div className="carousel-item">
+            <img src={KegiatanImage} className="d-block w-100 rounded" alt="Eight Slide" width="100%" height="100%"/>
+            <div className="carousel-caption d-none d-md-block">
+                <h5>Client Consultation</h5>
+                <p className='text-center'>Engaging in strategic discussions to understand client needs and goals.</p>
             </div>
         </div>
         <div className="carousel-item">
