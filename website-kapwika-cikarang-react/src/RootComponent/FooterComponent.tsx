@@ -61,7 +61,7 @@ const FooterComponent = () => {
             
             <div className="footer-section">
               <h4><b>Workshop</b></h4>
-              <p>Rukan Grand Galaxy City Blok RRG 2 No. 31 Jakarta,</p>
+              <p>Rukan Grand Galaxy City Blok RRG 2 No. 31,</p>
               <p>Bekasi Selatan, Kota Bekasi 17147</p>
               <div className='small-indent'></div>
               <p><b>Phone:</b> 021-82783828</p>
